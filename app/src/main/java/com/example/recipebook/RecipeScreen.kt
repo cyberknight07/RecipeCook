@@ -37,7 +37,7 @@ fun RecipeScreen( modifier: Modifier = Modifier,
                 Text(text = "Error Occured ${viewState.error}")
             }
             else ->{
-                //Display Categories
+                //Display Categoriesd
                 CategoryScreen(categories = viewState.list, navigateToDetailScreen)
             }
         }
